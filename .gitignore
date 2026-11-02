@@ -1,0 +1,28 @@
+# ===== Python 字节码 / 缓存 =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ===== 虚拟环境（每个项目独立，不进仓库） =====
+.venv/
+venv/
+env/
+ENV/
+
+# ===== PyCharm 项目配置（IDE 相关，不进仓库） =====
+.idea/
+
+# ===== 打包 / 构建产物 =====
+build/
+dist/
+*.egg-info/
+*.egg
+
+# ===== 操作系统文件 =====
+.DS_Store
+Thumbs.db
+
+# ===== 日志 / 本地临时 =====
+*.log
+.tmp/
